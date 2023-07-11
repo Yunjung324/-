@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="index.css" />
+    <!-- <link rel="stylesheet" href="reset.css" /> -->
+
     <title>Document</title>
   </head>
   <body>
@@ -18,13 +19,12 @@
         <h3 class="a11y-hidden">현재 추억 기록하기</h3>
         <h4 class="current-weather">오늘의 날씨: 맑음</h4>
         <div class="happy-current-memory">
-          <h4 class="">오늘 어떤 일로 행복했나요?</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
-            accusantium fuga dignissimos praesentium optio, eum, obcaecati
-            tempore officiis itaque odit doloremque iusto cumque atque sed
-            minima ipsum facilis unde quasi.
-          </p>
+          <h4 class="happy-question">오늘 어떤 일로 행복했나요?</h4>
+          <textarea class="happy-answer" rows="5" cols="30"></textarea>
+        </div>
+        <div>
+          <label for="memory-image"></label>
+          <input type="file" />
         </div>
       </section>
       <div class="image-container"><img src="img/spring.svg" /></div>
