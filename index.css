@@ -126,31 +126,48 @@ main {
   width: 30px;
   height: 30px;
   border-radius: 20px;
-  margin-left: 50px;
+  margin-left: 40px;
+  margin-top: 10px;
+  cursor: pointer;
 }
-ul {
+.upload-image {
   display: flex;
   flex-direction: row;
+  margin-top: 30px;
+}
+.memory-image-txt {
+  margin: 40px 20px;
+  font-size: 13px;
+  font-weight: 700;
 }
 li {
   list-style: none;
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   background-color: #ffe482;
   display: inline-block;
 }
-/* footer::before {
-  content: "";
-  position: absolute;
-  height: 2px;
-  width: 100%;
-  background-color: #fff;
-  top: 120px
-} */
+.today-memory {
+  margin-left: 14px;
+  margin-top: 20px;
+}
+.today-answer {
+  resize: none;
+  width: 90%;
+  border-radius: 10px;
+  border: 5px solid #ffe482;
+  outline-color: #f4c000;
+  height: 230px;
+  margin-top: 10px;
+}
 footer {
   background-color: #353857;
   margin-top: 20px;
   color: #fff;
   text-align: center;
+  font-size: 15px;
+}
+.footer-txt {
+  padding-top: 15px;
 }

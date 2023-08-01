@@ -17,7 +17,9 @@
       <h2 class="a11y-hidden">추억기록함 메인</h2>
       <section class="current-memory-section">
         <h3 class="a11y-hidden">현재 추억 기록하기</h3>
-        <h4 class="current-weather">오늘의 날씨: 맑음</h4>
+        <h4 class="current-weather">
+          오늘의 날씨: <span></span> <span></span>
+        </h4>
         <div class="happy-current-memory">
           <h4 class="happy-question">오늘 어떤 일로 행복했나요?</h4>
           <textarea class="happy-answer" rows="5" cols="30"></textarea>
@@ -28,27 +30,29 @@
             <li></li>
             <li></li>
           </ul>
-          <label for="memory-image"
-            >소중한 이미지를<br />
+          <label for="memory-image" class="memory-image-txt"
+            >소중한 추억을<br />
             업로드해주세요
-            <div class="image-btn">
-              <!-- <img src="img/downloadimgbtn.svg" /> -->
-            </div>
+            <div class="image-btn"></div>
           </label>
           <input id="memory-image" type="file" />
+        </div>
+        <div class="today-memory">
+          <div style="font-weight: 700">오늘 하루는 어땠나요?</div>
+          <textarea class="today-answer"></textarea>
         </div>
       </section>
       <div class="image-container"><img src="img/spring.svg" /></div>
       <section class="past-memory-section"></section>
     </main>
     <footer>
-      <div class="footer-txt">
-        이는 포트폴리오 용으로 제작된 추억기록함입니다.
-      </div>
+      <div class="footer-txt">이는 포트폴리오 용으로 제작되었습니다.</div>
       <div>To Contact Yunjung</div>
       <a href="https://github.com/Yunjung324"
         ><img style="width: 40px" src="img/github-logo.png"
       /></a>
     </footer>
+    <script src="index.js"></script>
+    <script src="weather.js"></script>
   </body>
 </html>
