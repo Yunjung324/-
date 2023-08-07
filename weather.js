@@ -1,4 +1,4 @@
-const API_KEY = process.env.API_KEY;
+const API_KEY = config.apikey;
 
 // 위치를 정상적으로 잘 받아온 경우
 function onGeoOK(position) {
